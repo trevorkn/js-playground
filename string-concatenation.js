@@ -8,7 +8,7 @@ const auther = 'Mario'; // Note: "auther" is a typo; correct spelling is "author
 const likes = 30;
 
 // Combine strings and variables using concatenation to form a full sentence
-result = 'The blog called ' + title + ' by ' + auther + ' has ' + likes + ' likes.';
+let result = 'The blog called ' + title + ' by ' + auther + ' has ' + likes + ' likes.';
 
 // Output the final message to the console
 console.log(result);
