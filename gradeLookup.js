@@ -1,9 +1,9 @@
 // Object to store student names and their grades
 const studentGrades = {
   Trevor: 'A',
-  Javan: 'B',
-  Marlin: 'C',
-  Lucas: 'D'
+  Luigi: 'B',
+  Shaun: 'C',
+  Yoshi: 'D'
 };
 
 // Prompt user for a student name
