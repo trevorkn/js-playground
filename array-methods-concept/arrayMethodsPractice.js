@@ -30,4 +30,4 @@ console.log(titall);  // 6
 
 // Pop the last item from original `ninjas` array
 ninjas.pop();
-console.log(ninjas);  // ['shaun', 'ryu', 'chun-li', 12]
+console.log(ninjas);  // ['shaun', 'ryu', 'chun-li', 12
