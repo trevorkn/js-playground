@@ -1,0 +1,105 @@
+/* styles.css */
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+/* Header */
+header h1 {
+    font-size: 2.5rem;
+    color: #00bcd4;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 2px 5px rgba(212, 0, 0, 0.3);
+}
+
+/* Input and button container */
+main > div {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+input[type="text"] {
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 8px;
+    width: 250px;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 1rem;
+}
+
+input[type="text"]::placeholder {
+    color: #aaa;
+}
+
+button#add-button {
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #00bcd4;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button#add-button:hover {
+    background-color: #0097a7;
+}
+
+/* List Section */
+h2 {
+    margin-bottom: 1rem;
+    color: #ffeb3b;
+    text-align: center;
+}
+
+#list-container {
+    list-style-type: none;
+    width: 100%;
+    max-width: 400px;
+}
+
+#list-container li {
+    background-color: #1e1e1e;
+    padding: 0.8rem 1rem;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#list-container li:hover {
+    background-color: #2c2c2c;
+}
+
+/* Responsive tweaks */
+@media (max-width: 500px) {
+    main > div {
+        flex-direction: column;
+        width: 100%;
+        align-items: stretch;
+    }
+
+    input[type="text"],
+    button#add-button {
+        width: 100%;
+    }
+}
